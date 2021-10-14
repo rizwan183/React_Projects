@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Form from './components/form1'
-import Form2 from './components/form2';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Form2 />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
